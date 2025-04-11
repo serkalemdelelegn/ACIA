@@ -1,0 +1,14 @@
+# Ignored Files
+
+# Virtual Environment
+alpha_insurance_env/
+
+# Python Bytecode
+__pycache__/
+
+# Data
+data
+
+# Ignore data files but not DVC files
+/data/*
+!/data/*.dvc
